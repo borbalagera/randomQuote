@@ -1,0 +1,33 @@
+.btn {
+  width: 135px;
+  position: fixed;
+  top: 60%;
+  left: 51%;
+  margin-top: 40px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 10px 20px;
+  font-size: 20;
+}
+
+.sparkle {
+  width: 135px;
+  position: fixed;
+  top: 60%;
+  left: 26%;
+  margin-top: 40px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 10px 20px;
+  font-size: 20;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
